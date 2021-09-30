@@ -24,3 +24,26 @@ _les deux images se trouvent dans le dossier assets/css/_
     <img src="./assets/css/home-mobile.png" alt="Lyatom cms" width="50%"
     style="object-fit: contain;" />
  </div>
+<div class="Container">
+    <div class="containerCentral">
+        <img src="./assets/logo.svg" alt="NJG connect">
+        <p>L'agence digitale qui vous connecte à votre avenir</p>
+        <div class="containerSupport">
+            <img src="tel" alt="Andoid ios">
+            <p>Andoid ios</p>
+            <img src="trait" alt="trait">
+            <p>web</p>
+            <img src="ordi" alt="ordi">
+        </div>
+    </div>
+    <div class="containerContact">
+    <img src="envelope" alt="envelope">
+    <div class="Devis">
+        <img src="devis" alt="devis">
+        <div class="contaienrTextDevis">
+            <span>Devis</span>
+            <span>Deposer ma demande</span>
+        </div>
+    </div>
+    </div>
+</div>

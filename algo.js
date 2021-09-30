@@ -2,13 +2,13 @@
 
 // Completer la fonction pour multiplier par deux chaque itération du tableau
 function multiple(arr) {
-  // your code here
+  return arr.map((n)=>n*2);
 }
 console.log(multiple([1, 2, 3])); // [2, 4, 6]
 
 // Completer la fonction pour retenir que les personnes ayant plus de 18ans sans créer de variable
 function handleMajeurOnly(arr) {
-  // your code here
+  return arr.filter((people)=>people.age>=18);
 }
 console.log(
   handleMajeurOnly([
@@ -21,6 +21,6 @@ console.log(
 
 // Completer la fonction qui permet de renvoyer le total de l'addition de chaque itération d'un tab sans créer de variable
 function total(arr) {
-  // your code here
+  return arr.reduce((a,b)=>a+b);
 }
 console.log(total([1, 2, 3])); // 6
